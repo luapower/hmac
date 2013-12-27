@@ -7,7 +7,7 @@ v1.0 | LuaJIT 2
 
 ## `local hmac = require'hmac'`
 
-[HMAC] algorithm per [RFC 2104].
+[HMAC][hmac wiki] algorithm per [RFC 2104].
 
 ------------------------------------------------------- -------------------------------------------------------
 `hmac.compute(key, message, hash_function,              Compute a hmac hash based on a hash function. Any function that
@@ -25,7 +25,5 @@ v1.0 | LuaJIT 2
 `hmac.sha512(message, key) -> HMAC-SHA512 hash`
 ------------------------------------------------- -------------------------------------------------
 
-[HMAC]:     http://en.wikipedia.org/wiki/HMAC
-[RFC 2104]: http://tools.ietf.org/html/rfc2104
-[md5]:      md5.html
-[sha2]:     sha2.html
+[hmac wiki]:  http://en.wikipedia.org/wiki/HMAC
+[RFC 2104]:   http://tools.ietf.org/html/rfc2104
