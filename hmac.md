@@ -1,6 +1,7 @@
 ---
-project: hmac
-tagline: HMAC hashing
+project:     hmac
+tagline:     HMAC hashing
+category:    Hashing
 ---
 
 v1.0 | LuaJIT 2
