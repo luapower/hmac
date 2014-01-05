@@ -4,8 +4,6 @@ tagline:     HMAC hashing
 category:    Hashing
 ---
 
-v1.0 | LuaJIT 2
-
 ## `local hmac = require'hmac'`
 
 [HMAC][hmac wiki] algorithm per [RFC 2104].
