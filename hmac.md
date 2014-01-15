@@ -1,7 +1,6 @@
 ---
 project:     hmac
 tagline:     HMAC hashing
-category:    Hashing
 ---
 
 ## `local hmac = require'hmac'`
