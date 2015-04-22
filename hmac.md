@@ -7,6 +7,9 @@ tagline: HMAC hashing
 
 [HMAC][hmac wiki] algorithm per [RFC 2104].
 
+[hmac wiki]:  http://en.wikipedia.org/wiki/HMAC
+[RFC 2104]:   http://tools.ietf.org/html/rfc2104
+
 ------------------------------------------------------- -------------------------------------------------------
 `hmac.compute(key, message, hash_function,              Compute a hmac hash based on a hash function. Any function that
  blocksize[, opad][, ipad]) -> hash, opad, ipad`        takes a string as single argument works, like `md5.sum`.
@@ -22,6 +25,3 @@ tagline: HMAC hashing
 `hmac.sha384(message, key) -> HMAC-SHA384 hash`
 `hmac.sha512(message, key) -> HMAC-SHA512 hash`
 ------------------------------------------------- -------------------------------------------------
-
-[hmac wiki]:  http://en.wikipedia.org/wiki/HMAC
-[RFC 2104]:   http://tools.ietf.org/html/rfc2104
