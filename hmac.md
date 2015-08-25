@@ -1,5 +1,4 @@
 ---
-project: hmac
 tagline: HMAC hashing
 ---
 
