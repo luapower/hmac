@@ -1,4 +1,7 @@
+
 --HMAC implementation
+--Written by Cosmin Apreutesei. Public Domain.
+
 --http://tools.ietf.org/html/rfc2104
 --http://en.wikipedia.org/wiki/HMAC
 
